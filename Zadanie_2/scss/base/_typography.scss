@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    color: $color-redish;
+    font-size: $main-size;
+    line-height: 1.7;
+    position: relative;
+    // font-family: $font-open-sans;
+}
+a {
+   color:$color-white; 
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-family: $font-nautigal;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.heading-second {
+    font-family: $font-nautigal;
+    font-weight: 700;
+    font-size: $main-size * 3;
+    text-transform: capitalize;
+}
+.heading-third {
+    font-family: $font-nautigal;
+    font-weight: 400;
+    font-size: $main-size * 2;
+    text-transform: capitalize;
+}
+
+.blue-text {
+    color: $color-primary;
+}
+
+.paragraph {
+    text-align: left;
+    &:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.container {
+    width: 1990px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-us-title{
+    font-family: $font-nautigal;
+       color: $color-redish;
+    font-weight: 900;
+    font-size: $main-size * 3;
+    padding-bottom: 2rem;
+}

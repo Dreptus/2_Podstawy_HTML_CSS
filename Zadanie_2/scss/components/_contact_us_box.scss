@@ -1,0 +1,22 @@
+.contact-us {
+    // position: absolute;
+}
+.contact-data,
+.contact-address,
+.phone {
+    text-align: left;
+    color: $color-redish;
+    font-family: $font-nautigal;
+    font-size: 2rem;
+    margin-top:1.4rem;
+}
+.name-of-salse,
+.street,
+.city,
+.state,
+.phone-number {
+    font-family: $font-raleway;
+    font-size: 1.1rem;
+    text-align: left;
+    // padding: -8rem;
+}

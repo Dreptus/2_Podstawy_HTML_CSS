@@ -1,0 +1,47 @@
+header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../../img/moto_back_1.jpg);
+    background-position: top;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    height: 95vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    align-items: center;
+    // margin-top: -30%;
+
+    .moto-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $main-size * 3;
+        &::before {
+            content: "";
+            display: block;
+            border: 5px solid $color-black;
+            width: 5%;
+            height: 0;
+            border-radius: $main-radius;
+            margin-right: 1%;
+        }
+        &::after {
+            content: "";
+            display: block;
+            border: 5px solid $color-black;
+            width: 5%;
+            height: 0;
+            border-radius: $main-radius;
+            margin-left: 1%;
+        }
+        a {
+            color: $color-redish;
+        }
+    }
+
+    .menu-text {
+        font-size: $main-size * 2;
+        font-family: $font-nautigal;
+        
+    }
+}
